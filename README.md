@@ -4,7 +4,7 @@ NSD-GUI, The auxiliary tool for network security devices has now completed suppo
 
 ![image-20240923152109931](./img/image-20240923152109931.png)
 
-目前的版本主要应用于HW期间封禁IP已经恶意域名等，大致功能点如下：
+目前的版本主要应用于封禁IP和恶意域名等，配合华为防火墙USG6300 FIREWALL-02使用，大致功能点如下：
 
 - 登陆和日志显示；
 - 防火墙策略查询；
