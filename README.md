@@ -9,7 +9,7 @@ NSD-GUI, The auxiliary tool for network security devices has now completed suppo
 - 登陆和日志显示；
 - 防火墙策略查询；
 - 地址组和域名组内数量查询；
-- 内网网IP映射查询；
+- 内外网IP映射查询；
 - IP拉黑；
 - URL拉黑。
 
