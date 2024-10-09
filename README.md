@@ -13,3 +13,9 @@ NSD-GUI, The auxiliary tool for network security devices has now completed suppo
 - IP拉黑；
 - URL拉黑。
 
+有几项注意事项：
+- 在防火墙中添加API用户，该用户的服务类型选择API；
+  ![image](https://github.com/user-attachments/assets/3a8e702c-b128-4c10-b957-f0459a5ee6c4)
+
+- 开启北向接口，程序中使用的接口是RESTCONF，选择HTTP，启用端口为9000（程序中已经写死了，后续再更新程序吧）。
+- ![image](https://github.com/user-attachments/assets/4ef0ee00-2dea-405f-b98a-0740bbe3139d)
