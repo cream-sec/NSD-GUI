@@ -13,6 +13,8 @@ NSD-GUI, The auxiliary tool for network security devices has now completed suppo
 - IP拉黑；
 - URL拉黑。
 
+上面的拉黑处理需要操作人员清楚防火墙的哪些地址组或者域名组用于封禁作用！
+
 有两项注意事项：
 - 在防火墙中添加API用户，该用户的服务类型选择API；
 - 开启北向接口，程序中使用的接口是RESTCONF，选择HTTP，启用端口为9000（程序中已经写死了，后续再更新程序吧）。
